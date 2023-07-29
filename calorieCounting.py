@@ -17,8 +17,6 @@ def get_top_three_highest_calories(calories_list):
 
 
 if __name__ == '__main__':
-    test = get_highest_calories("resources/dayOne/testCalorieList.txt")[0]
-    print(f'test case highest calorie: {test}')
     highest_calories_list = get_highest_calories("resources/dayOne/day_one_part_one.txt")
     top_three_highest_calories_summed = get_top_three_highest_calories(highest_calories_list)
     print(f'part one highest calorie: {highest_calories_list[0]}')
